@@ -18,10 +18,15 @@
 
 <script>
   let patterns = [
-    {name: 'Grids', link: 'grid'},
-    {name: 'Typography', link: 'typography'},
-    {name: 'Buttons', link: 'buttons'},
-    {name: 'Forms', link: 'forms'}
+     {name: 'Grids', link: 'grid'},
+    ,{name: 'Typography', link: 'typography'}
+    ,{name: 'Buttons', link: 'buttons'}
+    ,{name: 'Forms', link: 'forms'}
+    ,{name: 'Tables', link: 'tables'}
+    ,{name: 'Colors', link: 'colors'}
+    ,{name: 'Utilities', link: 'colors'}
+    ,{name: 'Spacing', link: 'spacing'}
+    ,{name: 'Media Queries', link: 'colors'}
   ];
   export default {
     replace: false,
