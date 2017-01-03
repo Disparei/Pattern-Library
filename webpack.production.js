@@ -1,5 +1,6 @@
-var webpack = require('webpack')
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var webpack = require('webpack'),
+    ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -39,7 +40,10 @@ module.exports = {
     }),
     new ExtractTextPlugin('[name].min.css', {
       allChunks: true
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: './src/assets', to: './assets' },
+    ])
   ],
   vue: {
     loaders: {
