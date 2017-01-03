@@ -1,0 +1,19 @@
+footer {
+	text-align: center;
+	padding: 30px 0;
+	width: 100%;
+
+	small {
+		color: #666;
+		font-size: .7em;
+
+		span {
+			color: #ca4747;
+		}
+
+		a {
+			color: #666;
+			text-decoration: underline;
+		}
+	}
+}
