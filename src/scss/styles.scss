@@ -21,6 +21,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     border: 0;
 }
 
+body {
+  font-family: 'Open Sans', 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .selfclear::before, .selfclear::after {
     content: " ";
     display: table;
@@ -33,7 +41,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 /* SpookyOverrides */
 
 .container {
-  width: 80%;
   max-width: 1200px;
 
   &.full-width {

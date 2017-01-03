@@ -1,15 +1,15 @@
 <template>
 
-  <div class="container pd-20 pd-cl-h">
-    <div class="col-2 pattern-list">
-      <h3>Patterns</h3>
-      <ol>
+  <div class="container">
+    <div class="col-3 pattern-list">
+      <h4><a href="#!/">Patterns</a></h4>
+      <ul>
         <li v-for="pattern in patterns">
-          <a href="/#!/{{ pattern.link }}">{{ pattern.name }}</a>
+          <a href="#!/{{ pattern.link }}">{{ pattern.name }}</a>
         </li>
-      </ol>
+      </ul>
     </div>
-    <section class="col-10">
+    <section class="col-9">
       <router-view></router-view>
     </section>
   </div>

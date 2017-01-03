@@ -33,12 +33,13 @@ header {
 		    	line-height: $header-height;
 	    	    float: left;
     	        font-weight: 600;
-	            font-size: .85em;
+	            font-size: 1.3rem;
 	            list-style: none;
 
 	            a {
             	    color: $link-color;
 				    vertical-align: top;
+				    letter-spacing: .08rem;
 				    -ms-transition: all 0.29s ease-in-out 0s;
 				    transition: all 0.29s ease-in-out 0s;
 				    position: relative;
