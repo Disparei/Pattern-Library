@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 
 // Views
 import app from './app.vue'
+import home from './patterns/home.vue'
 import grid from './patterns/grid.vue'
 import typography from './patterns/typography.vue'
 import about from './patterns/forms.vue'
@@ -19,6 +20,9 @@ const App = Vue.extend(app)
 const router = new VueRouter()
 
 router.map({
+  '/': {
+    component: home
+  },
   '/grid': {
     component: grid
   },

@@ -1,0 +1,6 @@
+<template>
+	<h5 class="bold-header">Pattern Library</h5>
+	<p>Disparei's pattern library is a <u>starting point and reference guide for product/app development</u>. There's always exceptions, therefore it isn't the bible of Disparei's design but must be considered when developing new stuff together with the <a href="http://brand.disparei.co/brand">Brand Board</a> and <a href="http://brand.disparei.co/company">Company Board</a>.</p>
+	<p>In this space you'll find out all the elements presented into our Css Framework and how to use them with better practices. So, with a <a href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a> approach you can start building consistent UI components to our App.</p>
+	<p>Our main front-end is a theme/framework above <a href="https://github.com/Agezao/SpookyCss" target="_blank">SpookyCss</a> UI framework, write in SASS. The css framework can be checked-up at Branding space on Disparei's Bitbucket. If you found something missing on the framework or have suggestions/improvements feel free to hack into the framework and make it better! :-)</p>
+</template>
