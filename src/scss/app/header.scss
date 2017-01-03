@@ -60,8 +60,8 @@ header {
 
 	            &.branding {
 	            	a img {
-	            		width: 60px;
-	            		height: auto;
+	            		width: auto;
+	            		height: unquote('calc(' + $header-height + ' - 5px)');
 	            		padding: 5px 0 0 0;
 	            	}
 	            }
