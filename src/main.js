@@ -9,7 +9,13 @@ import app from './app.vue'
 import home from './patterns/home.vue'
 import grid from './patterns/grid.vue'
 import typography from './patterns/typography.vue'
-import about from './patterns/forms.vue'
+import buttons from './patterns/buttons.vue'
+import forms from './patterns/forms.vue'
+import tables from './patterns/tables.vue'
+import colors from './patterns/colors.vue'
+import utilities from './patterns/utilities.vue'
+import spacing from './patterns/spacing.vue'
+import mediaqueries from './patterns/mediaqueries.vue'
 import soon from './patterns/soon.vue'
 
 Vue.config.debug = process.env.NODE_ENV !== 'production'
@@ -31,28 +37,25 @@ router.map({
     component: typography
   },
   '/buttons': {
-    component: soon
+    component: buttons
   },
   '/forms': {
-    component: soon
+    component: forms
   },
   '/tables': {
-    component: soon
+    component: tables
   },
   '/colors': {
-    component: soon
+    component: colors
   },
   '/utilities': {
-    component: soon
+    component: utilities
   },
   '/spacing': {
-    component: soon
+    component: spacing
   },
-  '/media Queries': {
-    component: soon
-  },
-  '/about': {
-    component: about
+  '/mediaqueries': {
+    component: mediaqueries
   }
 })
 

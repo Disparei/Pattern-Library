@@ -43,6 +43,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: './src/assets', to: './assets' },
+      { from: './node_modules/spookycss/css/spooky.min.css', to: './css'}
     ])
   ],
   vue: {

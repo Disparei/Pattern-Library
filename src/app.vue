@@ -24,9 +24,9 @@
     ,{name: 'Forms', link: 'forms'}
     ,{name: 'Tables', link: 'tables'}
     ,{name: 'Colors', link: 'colors'}
-    ,{name: 'Utilities', link: 'colors'}
+    ,{name: 'Utilities', link: 'utilities'}
     ,{name: 'Spacing', link: 'spacing'}
-    ,{name: 'Media Queries', link: 'colors'}
+    ,{name: 'Media Queries', link: 'mediaqueries'}
   ];
   export default {
     replace: false,
